@@ -13,7 +13,7 @@ allprojects {
 - Step 2. Add the dependency
 
 dependencies {
-        compile 'com.github.Victor2018:AppUpdateLib:v1.5'
+        compile 'com.github.Victor2018:AndroidTvLib:v1.0'
 }
 
 # 关注开发者：
