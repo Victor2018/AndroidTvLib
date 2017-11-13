@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="@dimen/dp_180"
+        android:layout_height="@dimen/dp_220"
+        android:background="@color/item_default_color"
+        android:focusable="true"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/top_test_bg"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFF00"
+            android:padding="@dimen/dp_5"
+            android:layout_gravity="center|bottom"
+            android:background="@color/dark_grey"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="从你的全世界路过"
+            android:textStyle="bold"/>
+        <com.victor.widget.LabelView
+            xmlns:lv="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingLeft="@dimen/dp_5"
+            android:paddingRight="@dimen/dp_5"
+            lv:lv_background_color="#3F9FE0"
+            lv:lv_fill_triangle="true"
+            lv:lv_gravity="TOP_RIGHT"
+            lv:lv_text="热门"
+            lv:lv_text_size="@dimen/dp_18" />
+</FrameLayout>

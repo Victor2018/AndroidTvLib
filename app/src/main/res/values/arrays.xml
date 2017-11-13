@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="home_title">
+		<item>热门推荐</item>
+		<item>网络电视</item>
+		<item>影视专区</item>
+		<item>应用中心</item>
+	</string-array>
+</resources>

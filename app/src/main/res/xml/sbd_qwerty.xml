@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 全键盘-26-字母 -->
+<Keyboard
+    bg_res="@color/transparent"
+    key_bg_res="@drawable/key_bg_rectangle"
+    key_width="@dimen/dp_40"
+    key_height="@dimen/dp_40"
+    key_left_padding="@dimen/dp_5"
+    key_select_res="@mipmap/white_light_10"
+    key_text_color="#b8bbbf"
+    key_text_size="@dimen/dp_22"
+    key_top_padding="@dimen/dp_5"
+    left_right_move="true"
+    qwerty="true"
+    qwerty_uppercase="false"
+    start_pos_x="@dimen/dp_130"
+    start_pos_y="@dimen/dp_0"
+    top_bottom_move="true" >
+
+    <!-- 第一行 -->
+    <row>
+        <keys
+            codes="45|51|33|46|48|53|49|37|43|44"
+            labels="Q|W|E|R|T|Y|U|I|O|P"
+            splitter="|" />
+        <!-- 删除 -->
+        <key
+            key_code="67"
+            key_icon="@mipmap/delete" />
+        <!-- 退出 -->
+        <key
+            key_code="4"
+            key_icon="@mipmap/quit_skb" />
+    </row>
+
+    <!-- 第二行 -->
+    <row>
+        <!-- 切换到数字键盘 -->
+        <keys
+            codes="29|47|32|34|35|36|38|39|40"
+            labels="A|S|D|F|G|H|J|K|L"
+            splitter="|" />
+
+        <key
+            key_icon="@mipmap/dou_hao_e"
+            key_label="," />
+        <key
+            key_icon="@mipmap/ju_hao_e"
+            key_label="." />
+        <!-- 回车 -->
+        <key
+            key_code="@string/keycode_center"
+            key_icon="@mipmap/g_search_icon"
+            key_height="@dimen/dp_85"
+            key_text_size="@dimen/dp_15" />
+    </row>
+
+    <!-- 第三行 -->
+    <row
+        key_bottom_padding="@dimen/dp_15">
+        <keys
+            codes="54|52|31|50"
+            labels="Z|X|C|V"
+            splitter="|" />
+        <!-- 空格 -->
+        <key
+            key_code="@string/keycode_space"
+            key_icon="@mipmap/kongge"
+            key_width="@dimen/dp_175" />
+
+        <keys
+            codes="30|42|41"
+            labels="B|N|M"
+            splitter="|" />
+    </row>
+
+</Keyboard>

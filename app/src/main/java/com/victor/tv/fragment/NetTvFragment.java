@@ -1,0 +1,1 @@
+package com.victor.tv.fragment;import android.os.Bundle;import com.victor.tv.R;public class NetTvFragment extends BaseFragment {    @Override    protected int getLayoutResource() {        return R.layout.test_page2;    }    @Override    public void onActivityCreated(Bundle savedInstanceState) {        super.onActivityCreated(savedInstanceState);    }}

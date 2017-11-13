@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 全键盘-26-字母 -->
+<Keyboard
+    bg_res="@mipmap/main_bg"
+    key_bg_res="@drawable/key_bg_rectangle"
+    key_height="@dimen/dp_50"
+    key_left_padding="@dimen/dp_5"
+    key_press_res="@mipmap/softkey_bg_press2"
+    key_select_res="@mipmap/softkey_bg_select2"
+    key_text_color="#b8bbbf"
+    key_text_size="@dimen/dp_30"
+    key_top_padding="@dimen/dp_5"
+    key_width="@dimen/dp_50"
+    start_pos_x="@dimen/dp_120"
+    start_pos_y="@dimen/dp_10" >
+
+    <!-- 第一行 -->
+    <row>
+        <keys
+            codes="8|9|10|11|12|13|14|15|16|7"
+            labels="1|2|3|4|5|6|7|8|9|0"
+            splitter="|" />
+
+        <key
+            key_icon="@mipmap/ju_hao_e"
+            key_label="." />
+        <!-- 删除 -->
+        <key
+            key_code="67"
+            key_icon="@mipmap/delete" />
+        <!-- 退出 -->
+        <key
+            key_code="4"
+            key_icon="@mipmap/quit_skb" />
+    </row>
+
+    <!-- 第二行 -->
+    <row>
+
+        <key
+            key_code="1234"
+            key_label="abc"
+            key_text_size="@dimen/dp_20" />
+        <key key_label="，" />
+        <key key_label="。"  />
+        <key key_label="!" />
+        <key key_label="\?" />
+        <key key_label=":" />
+        <key key_label=";" />
+        <key key_label="&quot;" />
+        <key key_label="&quot;" />
+        <key key_label="*" />
+        <key key_label="(" />
+        <key key_label=")" />
+        <!-- 回车 -->
+         <key
+            key_code="@string/keycode_center"
+            key_icon="@mipmap/g_search_icon"
+            key_height="@dimen/dp_105"
+            key_text_size="@dimen/dp_15" />
+    </row>
+
+    <!-- 第三行 -->
+    <row key_bottom_padding="@dimen/dp_15" >
+        <key
+            key_code="110"
+            key_label="翻页"
+            key_text_size="@dimen/dp_15" />
+        
+        <key
+            key_label=".com"
+            key_text_size="@dimen/dp_15" />
+        <key
+            key_label=".CN"
+            key_text_size="@dimen/dp_15" />
+        <key
+            key_label="www."
+            key_text_size="@dimen/dp_15" />
+        <key key_label="/" />
+        <!-- 空格 -->
+        <key
+            key_code="@string/keycode_space"
+            key_icon="@mipmap/kongge"
+            key_width="@dimen/dp_105" />
+
+        <key key_label="`" />
+        <key key_label="~" />
+        <key key_label="..." />
+        <!-- 光标向左移动 -->
+        <key
+            key_code="@string/keycode_left"
+            key_icon="@mipmap/key_move_left"/>
+        <!-- 光标向右移动 -->
+        <key
+            key_code="@string/keycode_right"
+            key_icon="@mipmap/key_move_right" />
+    </row>
+
+</Keyboard>
