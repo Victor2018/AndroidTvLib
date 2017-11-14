@@ -1,4 +1,4 @@
-package com.victor.model.data;
+package com.victor.data;
 
 import android.graphics.Rect;
 

@@ -8,8 +8,8 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import com.victor.tv.R;
-import com.victor.model.data.Lanes;
-import com.victor.model.data.Lanes.LaneInfo;
+import com.victor.data.Lanes;
+import com.victor.data.Lanes.LaneInfo;
 
 public class GridLayoutManager extends BaseLayoutManager {
     private static final String LOGTAG = "GridLayoutManager";

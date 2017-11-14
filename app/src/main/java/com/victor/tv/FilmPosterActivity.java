@@ -3,12 +3,11 @@ package com.victor.tv;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
 import android.util.TypedValue;
 import android.view.KeyEvent;
 import android.view.View;
 
-import com.victor.model.data.ItemBean;
+import com.victor.data.ItemBean;
 import com.victor.tv.adapter.FilmPosterAdapter;
 import com.victor.tv.library.util.Loger;
 import com.victor.tv.library.util.ToastUtils;

@@ -1,8 +1,10 @@
-package com.victor.presenter.impl;
+package com.victor.presenter;
 
-import com.victor.model.impl.GankModelImpl;
-import com.victor.tv.library.model.HttpModel;
-import com.victor.tv.library.presenter.impl.BasePresenterImpl;
+import com.android.volley.Request;
+import com.victor.http.annotation.HttpParms;
+import com.victor.http.inject.HttpInject;
+import com.victor.http.presenter.impl.BasePresenterImpl;
+import com.victor.data.GankData;
 import com.victor.tv.view.GankView;
 
 /**
@@ -29,8 +31,11 @@ public class GankPresenterImpl<T> extends BasePresenterImpl<T> {
         gankView.OnGank(null,error);
     }
 
+    @HttpParms(method = Request.Method.GET,url = "http://gank.io/api/data/Android/10/1",responseCls = GankData.class)
     @Override
-    public HttpModel getHttpModelImpl() {
-        return new GankModelImpl();
+    public void sendRequest(T parm) {
+        HttpInject.inject(this);
+        super.sendRequest(parm);
     }
+
 }

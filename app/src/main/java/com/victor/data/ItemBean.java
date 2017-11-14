@@ -1,4 +1,4 @@
-package com.victor.model.data;
+package com.victor.data;
 
 /**
  * Created by owen on 2017/7/6.

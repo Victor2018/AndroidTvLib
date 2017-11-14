@@ -1,5 +1,5 @@
 
-package com.victor.model.data;
+package com.victor.data;
 
 import com.victor.widget.recycleview.BaseLayoutManager.ItemEntry;
 

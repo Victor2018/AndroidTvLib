@@ -14,9 +14,9 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.MarginLayoutParams;
 
 import com.victor.tv.library.util.Loger;
-import com.victor.model.data.ItemEntries;
-import com.victor.model.data.Lanes;
-import com.victor.model.data.Lanes.LaneInfo;
+import com.victor.data.ItemEntries;
+import com.victor.data.Lanes;
+import com.victor.data.Lanes.LaneInfo;
 
 public abstract class BaseLayoutManager extends TwoWayLayoutManager {
     private static final String LOGTAG = BaseLayoutManager.class.getSimpleName();

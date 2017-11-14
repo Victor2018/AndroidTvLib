@@ -21,7 +21,7 @@ import android.support.v7.widget.RecyclerView.Recycler;
 import android.support.v7.widget.RecyclerView.State;
 import android.util.AttributeSet;
 
-import com.victor.model.data.Lanes;
+import com.victor.data.Lanes;
 
 
 public class ListLayoutManager extends BaseLayoutManager {

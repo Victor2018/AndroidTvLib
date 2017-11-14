@@ -2,7 +2,7 @@ package com.victor.App;
 
 import android.app.Application;
 
-import com.victor.tv.library.util.VolleyRequest;
+import com.victor.http.util.VolleyRequest;
 
 /**
  * Created by victor on 2017/9/26.
