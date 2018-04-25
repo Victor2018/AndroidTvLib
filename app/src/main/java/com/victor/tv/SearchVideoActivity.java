@@ -11,15 +11,15 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.victor.data.ItemBean;
 import com.victor.tv.adapter.FilmPosterAdapter;
+import com.victor.tv.library.data.ItemBean;
 import com.victor.tv.library.util.Loger;
 import com.victor.tv.library.util.ToastUtils;
-import com.victor.widget.focus.FocusBorder;
-import com.victor.widget.keyboard.SkbContainer;
-import com.victor.widget.keyboard.SoftKey;
-import com.victor.widget.keyboard.SoftKeyBoardListener;
-import com.victor.widget.recycleview.TvRecyclerView;
+import com.victor.tv.library.widget.focus.FocusBorder;
+import com.victor.tv.library.widget.keyboard.SkbContainer;
+import com.victor.tv.library.widget.keyboard.SoftKey;
+import com.victor.tv.library.widget.keyboard.SoftKeyBoardListener;
+import com.victor.tv.library.widget.recycleview.TvRecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -8,7 +8,7 @@
     android:gravity="center"
     android:background="@mipmap/bg_home">
 
-    <com.victor.widget.recycleview.TvRecyclerView
+    <com.victor.tv.library.widget.recycleview.TvRecyclerView
         android:id="@+id/trv_film_poster"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_240"
@@ -24,7 +24,7 @@
         android:textColor="@color/white"
         android:textSize="@dimen/dp_22" />
 
-    <com.victor.widget.keyboard.SkbContainer
+    <com.victor.tv.library.widget.keyboard.SkbContainer
         android:id="@+id/skbContainer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

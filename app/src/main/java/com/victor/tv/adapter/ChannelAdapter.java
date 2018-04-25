@@ -2,8 +2,8 @@ package com.victor.tv.adapter;
 
 import android.content.Context;
 
-import com.victor.data.ItemBean;
 import com.victor.tv.R;
+import com.victor.tv.library.data.ItemBean;
 
 public class ChannelAdapter extends CommonRecyclerViewAdapter<ItemBean> {
     public ChannelAdapter(Context context) {

@@ -9,7 +9,7 @@
     android:clipToPadding="false"
     android:background="@mipmap/bg_home">
 
-    <com.victor.widget.tablayout.TvTabLayout
+    <com.victor.tv.library.widget.tablayout.TvTabLayout
         android:id="@+id/tablayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
         android:layout_height="match_parent"/>
 
     <!-- 最顶层边框 -->
-    <com.victor.widget.MainUpView
+    <com.victor.tv.library.widget.MainUpView
         android:id="@+id/mainUpView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

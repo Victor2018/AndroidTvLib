@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <rv_video_cell android:state_focused="true" android:color="#81D7FF" />
+ -->    <item android:state_selected="true" android:color="#81D7FF" />
+ -->    <item android:state_focused="true" android:color="#81D7FF" />
+<!--      <rv_video_cell android:state_checked="true" android:color="#81D7FF" />
+ -->	 <item android:color="@color/white" />
+    <!-- <rv_video_cell android:color="#ff007aff" /> -->
+</selector>

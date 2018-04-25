@@ -9,7 +9,7 @@
     android:clipChildren="false"
     android:clipToPadding="false" >
 
-    <com.victor.widget.SmoothHorizontalScrollView
+    <com.victor.tv.library.widget.SmoothHorizontalScrollView
         android:id="@+id/test_hscroll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,13 +19,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
-        <com.victor.widget.FrameMainLayout
+        <com.victor.tv.library.widget.FrameMainLayout
             android:id="@+id/main_lay"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingRight="@dimen/dp_40" >
 
-            <com.victor.widget.ReflectItemView
+            <com.victor.tv.library.widget.ReflectItemView
                 android:id="@+id/page3_item1"
                 android:nextFocusUp="@+id/title_bar3"
                 android:layout_width="@dimen/dp_390"
@@ -63,9 +63,9 @@
                         android:textColor="#FF0000" />
 
                 </FrameLayout>
-            </com.victor.widget.ReflectItemView>
+            </com.victor.tv.library.widget.ReflectItemView>
 
-            <com.victor.widget.ReflectItemView
+            <com.victor.tv.library.widget.ReflectItemView
                 android:id="@+id/page3_item2"
                 android:layout_width="@dimen/dp_192"
                 android:layout_height="@dimen/dp_123"
@@ -86,9 +86,9 @@
                         android:scaleType="fitXY"
                         android:src="@mipmap/mainview_searchsong" />
                 </FrameLayout>
-            </com.victor.widget.ReflectItemView>
+            </com.victor.tv.library.widget.ReflectItemView>
 
-            <com.victor.widget.ReflectItemView
+            <com.victor.tv.library.widget.ReflectItemView
                 android:id="@+id/page3_item5"
                 android:nextFocusUp="@+id/title_bar3"
                 android:layout_width="@dimen/dp_186"
@@ -105,9 +105,9 @@
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
                     android:src="@mipmap/mainview_huodong" />
-            </com.victor.widget.ReflectItemView>
+            </com.victor.tv.library.widget.ReflectItemView>
 
-            <com.victor.widget.ReflectItemView
+            <com.victor.tv.library.widget.ReflectItemView
                 android:id="@+id/page3_item4"
                 android:nextFocusUp="@+id/title_bar3"
                 android:layout_width="@dimen/dp_196"
@@ -127,7 +127,7 @@
                     android:scaleType="fitXY"
                     android:src="@mipmap/mainview_cloudlist" />
 
-                <com.victor.widget.LabelView
+                <com.victor.tv.library.widget.LabelView
                     xmlns:lv="http://schemas.android.com/apk/res-auto"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -139,9 +139,9 @@
                     lv:lv_gravity="TOP_RIGHT"
                     lv:lv_text="热门"
                     lv:lv_text_size="18sp" />
-            </com.victor.widget.ReflectItemView>
+            </com.victor.tv.library.widget.ReflectItemView>
 
-            <com.victor.widget.ReflectItemView
+            <com.victor.tv.library.widget.ReflectItemView
                 android:id="@+id/page3_item3"
                 android:layout_width="@dimen/dp_192"
                 android:layout_height="@dimen/dp_123"
@@ -157,9 +157,9 @@
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
                     android:src="@mipmap/mainview_type" />
-            </com.victor.widget.ReflectItemView>
+            </com.victor.tv.library.widget.ReflectItemView>
 
-            <com.victor.widget.ReflectItemView
+            <com.victor.tv.library.widget.ReflectItemView
                 android:id="@+id/page3_item6"
                 android:nextFocusUp="@+id/title_bar3"
                 android:layout_width="@dimen/dp_206"
@@ -177,8 +177,8 @@
                     android:clickable="false"
                     android:scaleType="fitXY"
                     android:src="@mipmap/mainview_cloudlist" />
-            </com.victor.widget.ReflectItemView>
-        </com.victor.widget.FrameMainLayout>
-    </com.victor.widget.SmoothHorizontalScrollView>
+            </com.victor.tv.library.widget.ReflectItemView>
+        </com.victor.tv.library.widget.FrameMainLayout>
+    </com.victor.tv.library.widget.SmoothHorizontalScrollView>
 
 </RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white_50">#7fffffff</color>
+    <color name="transparent">#00000000</color><!--透明色 -->
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+
+    <color name="item_border_color">#666666</color>
+    <color name="item_default_color">#EEEEEE</color>
+    <color name="item_pressed_color">#CCCCCC</color>
+    <color name="item_activated_color">#77CEEE</color>
+    <color name="light_grey">#ebebeb</color>
+    <color name="alpha_blue">#66B3E5FC</color>
+    <color name="dark_grey">#7f000000</color>
+
+</resources>

@@ -1,5 +1,6 @@
 package com.victor.tv;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -7,12 +8,12 @@ import android.util.TypedValue;
 import android.view.KeyEvent;
 import android.view.View;
 
-import com.victor.data.ItemBean;
 import com.victor.tv.adapter.ChannelAdapter;
+import com.victor.tv.library.data.ItemBean;
 import com.victor.tv.library.util.Loger;
 import com.victor.tv.library.util.ToastUtils;
-import com.victor.widget.recycleview.TvRecyclerView;
-import com.victor.widget.focus.FocusBorder;
+import com.victor.tv.library.widget.focus.FocusBorder;
+import com.victor.tv.library.widget.recycleview.TvRecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +28,7 @@ public class LiveActivity extends BaseActivity implements TvRecyclerView.OnItemL
     private ChannelAdapter channelAdapter;
     protected FocusBorder mFocusBorder;
 
+    @SuppressLint("HandlerLeak")
     Handler mHandler = new Handler(){
         @Override
         public void handleMessage(Message msg) {

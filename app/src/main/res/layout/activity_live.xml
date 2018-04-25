@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@mipmap/bg_home">
 
-    <com.victor.widget.recycleview.TvRecyclerView
+    <com.victor.tv.library.widget.recycleview.TvRecyclerView
         android:id="@+id/trv_channel"
         android:layout_width="@dimen/dp_220"
         android:layout_height="match_parent"

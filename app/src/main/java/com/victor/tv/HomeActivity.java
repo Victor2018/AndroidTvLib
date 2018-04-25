@@ -9,24 +9,20 @@ import android.view.View;
 import android.view.ViewTreeObserver;
 import android.view.WindowManager;
 
-import com.victor.adapter.HomeViewPageAdapter;
-import com.victor.bridge.EffectNoDrawBridge;
-import com.victor.bridge.OpenEffectBridge;
-import com.victor.http.presenter.HttpPresenter;
-import com.victor.data.GankData;
-import com.victor.presenter.GankPresenterImpl;
+import com.victor.tv.adapter.HomeViewPageAdapter;
 import com.victor.tv.fragment.NetTvFragment;
 import com.victor.tv.fragment.RecommendFragment;
 import com.victor.tv.fragment.SettingFragment;
 import com.victor.tv.fragment.VideoFragment;
-import com.victor.tv.view.GankView;
-import com.victor.widget.MainUpView;
-import com.victor.widget.tablayout.TvTabLayout;
+import com.victor.tv.library.bridge.EffectNoDrawBridge;
+import com.victor.tv.library.bridge.OpenEffectBridge;
+import com.victor.tv.library.widget.MainUpView;
+import com.victor.tv.library.widget.tablayout.TvTabLayout;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class HomeActivity extends BaseActivity implements GankView<GankData>,
+public class HomeActivity extends BaseActivity implements
         ViewTreeObserver.OnGlobalFocusChangeListener,ViewPager.OnPageChangeListener {
     private String TAG = "HomeActivity";
     private TvTabLayout mTabLayout;
@@ -40,8 +36,6 @@ public class HomeActivity extends BaseActivity implements GankView<GankData>,
     private HomeViewPageAdapter homeViewPageAdapter;
     private List<Fragment> fragments = new ArrayList<>();
 
-    private HttpPresenter gankPresenter;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,9 +44,6 @@ public class HomeActivity extends BaseActivity implements GankView<GankData>,
         initialize();
     }
     private void initialize () {
-        gankPresenter = new GankPresenterImpl(this);
-        gankPresenter.sendRequest(null);
-
         mTabLayout = (TvTabLayout) findViewById(R.id.tablayout);
         mTabLayout.setScaleValue(1.12f);
         mVpHome = (ViewPager) findViewById(R.id.vp_home);
@@ -85,11 +76,6 @@ public class HomeActivity extends BaseActivity implements GankView<GankData>,
         RectF rectF = new RectF(getDimension(R.dimen.dp_5) * density, getDimension(R.dimen.dp_5) * density,
                 getDimension(R.dimen.dp_5) * density, getDimension(R.dimen.dp_5) * density);
         mEffectNoDrawBridge.setDrawUpRectPadding(rectF);
-
-    }
-
-    @Override
-    public void OnGank(GankData data, String msg) {
 
     }
 

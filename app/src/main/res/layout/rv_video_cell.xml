@@ -27,7 +27,7 @@
             android:text="从你的全世界路过"
             android:textStyle="bold"/>
 
-        <com.victor.widget.LabelView
+        <com.victor.tv.library.widget.LabelView
             xmlns:lv="http://schemas.android.com/apk/res-auto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

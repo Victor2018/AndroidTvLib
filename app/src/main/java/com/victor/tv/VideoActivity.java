@@ -7,12 +7,12 @@ import android.util.TypedValue;
 import android.view.KeyEvent;
 import android.view.View;
 
-import com.victor.data.ItemBean;
 import com.victor.tv.adapter.VideoAdapter;
+import com.victor.tv.library.data.ItemBean;
 import com.victor.tv.library.util.Loger;
 import com.victor.tv.library.util.ToastUtils;
-import com.victor.widget.recycleview.TvRecyclerView;
-import com.victor.widget.focus.FocusBorder;
+import com.victor.tv.library.widget.focus.FocusBorder;
+import com.victor.tv.library.widget.recycleview.TvRecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;

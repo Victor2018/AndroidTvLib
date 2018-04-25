@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.victor.widget.recycleview.TvRecyclerView
+    <com.victor.tv.library.widget.recycleview.TvRecyclerView
         android:id="@+id/trv_video"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
